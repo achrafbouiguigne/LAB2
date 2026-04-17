@@ -1,0 +1,16 @@
+LAB2
+Name: [Bouiguigne achraf]
+
+Compile:
+g++ -o hdl_parser hdl_parser.cpp -std=c++11
+
+Run for VHDL:
+./hdl_parser test.vhd
+
+Run for Verilog:
+./hdl_parser test.v
+
+
+
+The program reads a VHDL or Verilog file and extracts all input and output signals.
+It handles errors like missing files and parsing issues.
